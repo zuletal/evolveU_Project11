@@ -1,0 +1,253 @@
+body {
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Arial;
+    background-image: url("./Images/Geophy5.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.zone {
+    cursor:pointer;
+    color:#FFF;
+    /* font-size:2em; */
+    border-radius:4px;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 1.3vw;
+    padding: 8px 0;
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:hover{
+    color:red;
+    font-weight: bold;    
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.FirstPage {
+    /*show heigh: auto*/
+    height: 60vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover {
+    width: 15rem;
+    margin-top: 90px;
+    border-radius: 50%;
+    
+}
+
+.whoami{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Secular One;
+}
+
+.icons {
+    justify-content: center;
+    box-sizing: inherit;
+    
+}
+h2{
+    margin-block-start: 2.5em;
+    font-weight: bolder;
+}
+
+.profile{
+    /* background-color:#99b9db ; */
+    padding: 20px 20px;
+    margin: 30px 20px; 
+}
+
+.titleFormat{
+    border: black;
+    padding: 20px;
+}
+
+.topmargin{
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 10px 20px;
+    height: auto; 
+    margin-bottom: 50px;
+    color: white;
+    background-color: rgb(80, 79, 79);
+  }
+
+/***********************************************************************
+ *  Main section
+ **********************************************************************/
+
+.box {
+    background-color: #444;
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.box:hover {
+    -webkit-transform: scale();
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform:scale(1.05) ;
+}
+
+.box > img {
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    /* margin-top: 0; */
+    background-color: #444;
+    color: #FFF;
+}
+
+#newcard{
+    margin: 20px 70px;
+}
+
+.volunteer{
+    display: flex;
+    padding-left: 50px;
+    /* justify-content: center; */
+    gap: 50px;
+    justify-content: center;
+}
+  
+
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+    background-color: #444;
+    color: #FFF;
+    font-size: large;
+    padding: 10px;
+}
+
+/***********************************************************************
+ *  Nav Color
+ **********************************************************************/
+ .NavColor {
+
+    background: linear-gradient(45deg, black, transparent);
+
+}
+
+/***********************************************************************
+ *  Mobile responsive
+ **********************************************************************/
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 2vw;
+        padding: 0;
+        width: 100%;
+        background-size: 100% ;
+    }
+    .FirstPage {
+        /*show heigh: auto*/
+        height: 40vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+
+    a {
+        color: aliceblue;
+    }
+        
+    a:hover{
+        color:red;
+        font-weight: bold;    
+    }
+    
+    h2 {
+        font-size: 22px; 
+        padding-top: 40px;
+        margin-block-start: 0;
+    }
+    h3 {
+        font-size: 20px;
+        padding-top: 10px;  
+    }
+    p{
+        font-size: 16px;
+        margin: 10px;
+        text-align: justify;
+    }
+    .whoami{
+        font-size: 1.2rem;
+    }
+    .zone {
+        cursor:pointer;
+        color:#FFF;
+        font-size:2em;
+        border-radius:4px;
+        transition: all 0.3s linear;
+    }
+
+    nav.zone.NavColor.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+    #newcard{
+        margin: 20px;
+    }
+    
+      footer {
+        /* text-align: center; */
+        font-size: 12px;
+        /* font-size: large; */
+        padding: 10px;
+    }
+    
+    }

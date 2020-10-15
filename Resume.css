@@ -1,0 +1,96 @@
+body{
+  background-color:#b3d9ff;
+  margin: 15px 50px;
+}
+h1{
+  text-align: center;
+}
+.line1{
+  height: 1px;
+  color: black;
+  background-color: black;
+  border-color: black;
+}
+.line2{
+  height: 4px;
+  color: black;
+  background-color: black;
+  border-color: black;
+}
+.indentRight{
+  float: right;
+  text-align: right;
+}
+.titles{
+  text-align: center;
+}
+ul{
+  text-align: justify;
+}
+span{
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  align-items: right;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.btn1 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  align-items: right;
+}
+
+/* Darker background on mouse-over */
+.btn1:hover {
+  background-color: RoyalBlue;
+}
+@media only screen and (max-width: 600px) {
+  body{
+    margin: 15px 10px;
+  }
+  .leftInfo{
+    font-size: 12px;
+  }
+  .indentRight{
+    font-size: 12px;
+    float: right;
+    text-align: right;
+  }
+ 
+  .titles{
+    font-size: 16px;
+    text-align: center;
+  }
+  h4{
+    font-size: 14px;
+  }
+  .paragraph{
+    font-size: 14px;
+    text-align: justify;
+  }
+  /* ul{
+    text-align: justify;
+  } */
+  div.company{
+    font-size: 14px;
+  }
+  span{
+    font-size: 15px;
+  }
+
+}
